@@ -21,7 +21,7 @@ pdfjs.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.
 const firebaseConfig={apiKey:'AIzaSyDQodDFc3SJsINdzUmj4YgGW7MfEcS_PNU',authDomain:'agrirover-7991b.firebaseapp.com',databaseURL:'https://agrirover-7991b-default-rtdb.firebaseio.com',projectId:'agrirover-7991b',storageBucket:'agrirover-7991b.firebasestorage.app',messagingSenderId:'674272766868',appId:'1:674272766868:web:55f709f0a05fddb94cbd81'};
 const DEVICE_UID='nUVO0tjaSmaoX2Wvvg1vy4JYY4H2';
 // Optional LOCAL prototype only. Do not publish a real API key in source.
-const GEMINI_API_KEY=''; // Paste a valid Gemini API key in Settings
+const GEMINI_API_KEY='AQ.Ab8RN6I1qGuU0RG2QLipjmyxSHyNbhzyBsqkYdRE7baOe5Ll2w'; // User-provided credential; API acceptance not verified
 const app=initializeApp(firebaseConfig),auth=getAuth(app),db=getDatabase(app),$=id=>document.getElementById(id);
 let user=null,unsubs=[],latestReading=null,latestReadingId=null,latestGlucose=null,latestReport=null,register=false,generation=0,initialHistory=true,activeJob=false;
 const attempted=new Set();
